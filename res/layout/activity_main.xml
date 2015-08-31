@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    
+    <TextView 
+         android:id="@+id/tip"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentTop="true"
+          android:layout_marginTop="30dip"
+          
+          android:textSize="20dip"
+          android:textColor="#FFBB33"
+         android:text=" 初次启动显示，以后直接锁屏 "
+         />
+    
+    
+
+    <ImageView
+       	android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/lock"
+        
+        />
+    
+    <TextView 
+         android:id="@+id/need_active"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_below="@+id/imageView"
+         android:layout_marginTop="10dip"
+         android:textSize="15dip"
+         android:textColor="#FF4444"
+         android:text="需要激活才能锁屏，现在激活？"
+         
+         />
+    
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dip"
+        android:text="关于"
+        android:textColor="#33B5E5"
+        android:textSize="15dip" />
+
+</RelativeLayout>
